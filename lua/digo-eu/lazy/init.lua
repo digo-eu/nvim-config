@@ -7,7 +7,10 @@ return {
 			vim.cmd.colorscheme('tokyonight')
 		end
 	},
-
+    {
+        'Exafunction/codeium.vim',
+        event = 'BufEnter'
+    },
 	{
 		"nvim-lua/plenary.nvim",
 		name = 'plenary',
